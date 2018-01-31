@@ -1,0 +1,39 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "getBaseURI",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1516622200615,
+      "duration": 434,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        "catalogueID"
+      ],
+      "metaData": {
+        "groups": [],
+        "name": "getIteamFromCatalogueID",
+        "sign": "RestAssertTest.getIteamFromCatalogueID(java.lang.String)[pri:0, instance:com.wsautomation.RestAssertTest@166fa74d]",
+        "value": [
+          "catalogueID"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1516622201079,
+      "duration": 1768,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

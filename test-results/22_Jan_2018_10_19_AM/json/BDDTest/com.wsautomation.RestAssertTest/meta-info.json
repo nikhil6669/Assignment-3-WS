@@ -1,0 +1,34 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "getBaseURI",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1516616352438,
+      "duration": 447,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "getCatalogue",
+        "sign": "RestAssertTest.getCatalogue()[pri:0, instance:com.wsautomation.RestAssertTest@1060b431]"
+      },
+      "dependsOn": [],
+      "startTime": 1516616352914,
+      "duration": 1665,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [QAS Demo]">
+  <test name="BDD Test(failed)">
+    <classes>
+      <class name="com.wsautomation.RestAssertTest">
+        <methods>
+          <include name="getBaseURI"/>
+          <include name="getIteamFromCatalogueID" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.wsautomation.RestAssertTest -->
+    </classes>
+  </test> <!-- BDD Test(failed) -->
+</suite> <!-- Failed suite [QAS Demo] -->

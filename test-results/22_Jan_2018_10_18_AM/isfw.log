@@ -1,0 +1,716 @@
+[main] 15:49:31,306 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 15:49:31,315 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 15:49:31,315 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 15:49:31,320 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 15:49:31,321 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 15:49:31,482 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=12-RC3, qaf-Version=2.1, qaf-Build-Time=06-Aug-2017 11:49:43}
+[main] 15:49:31,497 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\TBSWorkspace\WSAutomation\resources. Found property files to load: 3
+[main] 15:49:31,523 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 15:49:31,523 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 15:49:31,523 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 15:49:31,523 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 15:49:31,523 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 15:49:31,523 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 15:49:31,523 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 15:49:31,523 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 15:49:31,524 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 15:49:31,524 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 15:49:31,524 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 15:49:31,524 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 15:49:31,524 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 15:49:31,524 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 15:49:31,524 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 15:49:31,524 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 15:49:31,525 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 15:49:31,525 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 15:49:31,528 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.xml-dialect
+[main] 15:49:31,528 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 15:49:31,528 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 15:49:31,528 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 15:49:31,528 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 15:49:31,528 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 15:49:31,528 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 15:49:31,530 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\TBSWorkspace\WSAutomation\resources. Found property files to load: 0
+[main] 15:49:31,533 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 15:49:31,533 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 15:49:31,533 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 15:49:31,533 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 15:49:31,533 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 15:49:31,533 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 15:49:31,533 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 15:49:31,533 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 15:49:31,534 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 15:49:31,534 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 15:49:31,534 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 15:49:31,534 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 15:49:31,534 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 15:49:31,534 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 15:49:31,534 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 15:49:31,534 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 15:49:31,534 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 15:49:31,534 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 15:49:31,534 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.xml-dialect
+[main] 15:49:31,534 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 15:49:31,534 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 15:49:31,534 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 15:49:31,534 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 15:49:31,535 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 15:49:31,535 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 15:49:31,644 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 15:49:31,667 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: getBaseURI
+[main] 15:49:32,026 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: getBaseURI - com.wsautomation is test:false
+[main] 15:49:32,026 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:49:32,036 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] config method:  getBaseURI
+[main] 15:49:32,038 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: pass groups: {name=getBaseURI, groups=[Ljava.lang.String;@cb0755b, description=}
+[main] 15:49:32,055 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 15:49:32,055 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: getCatalogue
+[main] 15:49:33,274 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Get connection for route {}->http://10.12.40.220:80
+[main] 15:49:33,287 DEBUG [org.apache.http.impl.conn.DefaultClientConnectionOperator] Connecting to 10.12.40.220:80
+[main] 15:49:33,480 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: ignoreCookies
+[main] 15:49:33,482 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[main] 15:49:33,483 DEBUG [org.apache.http.client.protocol.RequestTargetAuthentication] Target auth state: UNCHALLENGED
+[main] 15:49:33,483 DEBUG [org.apache.http.client.protocol.RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+[main] 15:49:33,483 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Attempt 1 to execute request
+[main] 15:49:33,484 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Sending request: GET /catalogue HTTP/1.1
+[main] 15:49:33,484 DEBUG [org.apache.http.wire]  >> "GET /catalogue HTTP/1.1[\r][\n]"
+[main] 15:49:33,485 DEBUG [org.apache.http.wire]  >> "Accept: */*[\r][\n]"
+[main] 15:49:33,486 DEBUG [org.apache.http.wire]  >> "Content-Length: 0[\r][\n]"
+[main] 15:49:33,486 DEBUG [org.apache.http.wire]  >> "Host: 10.12.40.220[\r][\n]"
+[main] 15:49:33,486 DEBUG [org.apache.http.wire]  >> "Connection: Keep-Alive[\r][\n]"
+[main] 15:49:33,486 DEBUG [org.apache.http.wire]  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_152)[\r][\n]"
+[main] 15:49:33,486 DEBUG [org.apache.http.wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] 15:49:33,486 DEBUG [org.apache.http.wire]  >> "[\r][\n]"
+[main] 15:49:33,486 DEBUG [org.apache.http.headers] >> GET /catalogue HTTP/1.1
+[main] 15:49:33,486 DEBUG [org.apache.http.headers] >> Accept: */*
+[main] 15:49:33,486 DEBUG [org.apache.http.headers] >> Content-Length: 0
+[main] 15:49:33,486 DEBUG [org.apache.http.headers] >> Host: 10.12.40.220
+[main] 15:49:33,486 DEBUG [org.apache.http.headers] >> Connection: Keep-Alive
+[main] 15:49:33,486 DEBUG [org.apache.http.headers] >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_152)
+[main] 15:49:33,486 DEBUG [org.apache.http.headers] >> Accept-Encoding: gzip,deflate
+[main] 15:49:33,543 DEBUG [org.apache.http.wire]  << "HTTP/1.1 200 OK[\r][\n]"
+[main] 15:49:33,545 DEBUG [org.apache.http.wire]  << "Date: Mon, 22 Jan 2018 10:19:16 GMT[\r][\n]"
+[main] 15:49:33,546 DEBUG [org.apache.http.wire]  << "Set-Cookie: _TRAEFIK_BACKEND=http://front-end:8079[\r][\n]"
+[main] 15:49:33,546 DEBUG [org.apache.http.wire]  << "Set-Cookie: md.sid=s%3AvBXHaNcEXurcsrtyQKRumyxLBk1mfpIu.RO3SslAxdE%2ByBCjdGPTMFdQT8SHA2v23X2CTapyK2BI; Path=/; HttpOnly[\r][\n]"
+[main] 15:49:33,546 DEBUG [org.apache.http.wire]  << "X-Powered-By: Express[\r][\n]"
+[main] 15:49:33,546 DEBUG [org.apache.http.wire]  << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[main] 15:49:33,546 DEBUG [org.apache.http.wire]  << "Transfer-Encoding: chunked[\r][\n]"
+[main] 15:49:33,546 DEBUG [org.apache.http.wire]  << "[\r][\n]"
+[main] 15:49:33,547 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+[main] 15:49:33,547 DEBUG [org.apache.http.headers] << HTTP/1.1 200 OK
+[main] 15:49:33,547 DEBUG [org.apache.http.headers] << Date: Mon, 22 Jan 2018 10:19:16 GMT
+[main] 15:49:33,547 DEBUG [org.apache.http.headers] << Set-Cookie: _TRAEFIK_BACKEND=http://front-end:8079
+[main] 15:49:33,547 DEBUG [org.apache.http.headers] << Set-Cookie: md.sid=s%3AvBXHaNcEXurcsrtyQKRumyxLBk1mfpIu.RO3SslAxdE%2ByBCjdGPTMFdQT8SHA2v23X2CTapyK2BI; Path=/; HttpOnly
+[main] 15:49:33,547 DEBUG [org.apache.http.headers] << X-Powered-By: Express
+[main] 15:49:33,547 DEBUG [org.apache.http.headers] << Content-Type: text/plain; charset=utf-8
+[main] 15:49:33,547 DEBUG [org.apache.http.headers] << Transfer-Encoding: chunked
+[main] 15:49:33,554 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Connection can be kept alive indefinitely
+[main] 15:49:33,579 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: text/plain; charset=utf-8
+[main] 15:49:33,580 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] 15:49:33,660 DEBUG [org.apache.http.wire]  << "aeb[\r][\n]"
+[main] 15:49:33,661 DEBUG [org.apache.http.wire]  << "[{"id":"03fef6ac-1896-4ce8-bd69-b798f85c6e0b","name":"Holy","description":"Socks fit for a Messiah. You too can experience walking in water with these special edition beauties. Each hole is lovingly proggled to leave smooth edges. The only sock approved by a higher power.","imageUrl":["/catalogue/images/holy_1.jpeg","/catalogue/images/holy_2.jpeg"],"price":99.99,"count":1,"tag":["magic","action"]},{"id":"3395a43e-2d88-40de-b95f-e00e1502085b","name":"Colourful","description":"proident occaecat irure et excepteur labore minim nisi amet irure","imageUrl":["/catalogue/images/colourful_socks.jpg","/catalogue/images/colourful_socks.jpg"],"price":18,"count":438,"tag":["blue","brown"]},{"id":"510a0d7e-8e83-4193-b483-e27e09ddc34d","name":"SuperSport XL","description":"Ready for action. Engineers: be ready to smash that next bug! Be ready, with these super-action-sport-masterpieces. This particular engineer was chased away from the office with a stick.","imageUrl":["/catalogue/images/puma_1.jpeg","/catalogue/images/puma_2.jpeg"],"price":15,"count":820,"tag":["black","sport","formal"]},{"id":"808a2de1-1aaa-4c25-a9b9-6612e8f29a3"
+[main] 15:49:33,662 DEBUG [org.apache.http.wire]  << "8","name":"Crossed","description":"A mature sock, crossed, with an air of nonchalance.","imageUrl":["/catalogue/images/cross_1.jpeg","/catalogue/images/cross_2.jpeg"],"price":17.32,"count":738,"tag":["red","formal","blue","action"]},{"id":"819e1fbf-8b7e-4f6d-811f-693534916a8b","name":"Figueroa","description":"enim officia aliqua excepteur esse deserunt quis aliquip nostrud anim","imageUrl":["/catalogue/images/WAT.jpg","/catalogue/images/WAT2.jpg"],"price":14,"count":808,"tag":["formal","blue","green"]},{"id":"837ab141-399e-4c1f-9abc-bace40296bac","name":"Cat socks","description":"consequat amet cupidatat minim laborum tempor elit ex consequat in","imageUrl":["/catalogue/images/catsocks.jpg","/catalogue/images/catsocks2.jpg"],"price":15,"count":175,"tag":["green","brown","formal"]},{"id":"a0a4f044-b040-410d-8ead-4de0446aec7e","name":"Nerd leg","description":"For all those leg lovers out there. A perfect example of a swivel chair trained calf. Meticulously trained on a diet of sitting and Pina Coladas. Phwarr...","imageUrl":["/catalogue/images/bit_of_leg_1.jpeg","/catalogue/images/bit_of_leg_2.jpeg"],"price":7.99,"count":115,"tag":["skin","blue"]},{"id":"d3588630-ad8e-49df-bbd7-3167f7efb246","name":"YouTube.sock","description":"We were not paid to sell this sock. It's just a bit geeky.","imageUrl":["/catalogue/images/youtube_1.jpeg","/catalogue/images/youtube_2.jpeg"],"price":10.99,"count":801,"tag":["geek","formal"]},{"id":"zzz4f044-b040-410d-8ead-4de0446aec7e","name":"Classic","description":"Keep it simple.","imageUrl":["/catalogue/images/classic.jpg","/catalogue/images/classic2.jpg"],"price":12,"count":127,"tag":["green","brown"]}][\n]"
+[main] 15:49:33,663 DEBUG [org.apache.http.wire]  << "[\r][\n]"
+[main] 15:49:33,663 DEBUG [org.apache.http.wire]  << "0[\r][\n]"
+[main] 15:49:33,663 DEBUG [org.apache.http.wire]  << "[\r][\n]"
+[main] 15:49:33,663 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3d08f3f5
+[main] 15:49:33,663 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Connection can be kept alive indefinitely
+[main] 15:49:33,678 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: getCatalogue - com.wsautomation is test:true
+[main] 15:49:33,678 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:49:33,691 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: pass groups: {description=null, groups=[Ljava.lang.String;@5d465e4b, name=getCatalogue, sign=RestAssertTest.getCatalogue()[pri:0, instance:com.wsautomation.RestAssertTest@166fa74d]}
+[main] 15:49:33,728 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onfinish testcntext: start
+[main] 15:49:33,740 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: start
+[main] 15:49:33,744 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: done
+[main] 16:01:45,215 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 16:01:45,215 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 16:01:45,232 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 16:01:45,234 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 16:01:45,236 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 16:01:45,430 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=12-RC3, qaf-Version=2.1, qaf-Build-Time=06-Aug-2017 11:49:43}
+[main] 16:01:45,443 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\TBSWorkspace\WSAutomation\resources. Found property files to load: 3
+[main] 16:01:45,466 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 16:01:45,466 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 16:01:45,466 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 16:01:45,466 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 16:01:45,466 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 16:01:45,467 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 16:01:45,467 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 16:01:45,467 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 16:01:45,467 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 16:01:45,467 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 16:01:45,467 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 16:01:45,467 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 16:01:45,467 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 16:01:45,468 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 16:01:45,468 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 16:01:45,468 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 16:01:45,468 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 16:01:45,468 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 16:01:45,472 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.xml-dialect
+[main] 16:01:45,473 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 16:01:45,473 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 16:01:45,473 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 16:01:45,473 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 16:01:45,473 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 16:01:45,473 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 16:01:45,475 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\TBSWorkspace\WSAutomation\resources. Found property files to load: 0
+[main] 16:01:45,478 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 16:01:45,478 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 16:01:45,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 16:01:45,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 16:01:45,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 16:01:45,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 16:01:45,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 16:01:45,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 16:01:45,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 16:01:45,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 16:01:45,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 16:01:45,480 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 16:01:45,480 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 16:01:45,480 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 16:01:45,480 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 16:01:45,480 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 16:01:45,480 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 16:01:45,480 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 16:01:45,480 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.xml-dialect
+[main] 16:01:45,480 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 16:01:45,480 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 16:01:45,480 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 16:01:45,480 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 16:01:45,481 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 16:01:45,481 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 16:01:45,581 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 16:01:45,629 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: getBaseURI
+[main] 16:01:45,973 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: getBaseURI - com.wsautomation is test:false
+[main] 16:01:45,973 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 16:01:45,989 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] config method:  getBaseURI
+[main] 16:01:45,989 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: pass groups: {resultFileName=getBaseURINYASkOzYzK, name=getBaseURI, groups=[Ljava.lang.String;@28261e8e, description=}
+[main] 16:01:46,020 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 16:01:46,020 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: getCatalogue
+[main] 16:01:47,174 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Get connection for route {}->http://10.12.40.220:80
+[main] 16:01:47,187 DEBUG [org.apache.http.impl.conn.DefaultClientConnectionOperator] Connecting to 10.12.40.220:80
+[main] 16:01:47,226 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: ignoreCookies
+[main] 16:01:47,226 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[main] 16:01:47,226 DEBUG [org.apache.http.client.protocol.RequestTargetAuthentication] Target auth state: UNCHALLENGED
+[main] 16:01:47,226 DEBUG [org.apache.http.client.protocol.RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+[main] 16:01:47,226 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Attempt 1 to execute request
+[main] 16:01:47,226 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Sending request: GET /catalogue HTTP/1.1
+[main] 16:01:47,226 DEBUG [org.apache.http.wire]  >> "GET /catalogue HTTP/1.1[\r][\n]"
+[main] 16:01:47,226 DEBUG [org.apache.http.wire]  >> "Accept: */*[\r][\n]"
+[main] 16:01:47,226 DEBUG [org.apache.http.wire]  >> "Content-Length: 0[\r][\n]"
+[main] 16:01:47,226 DEBUG [org.apache.http.wire]  >> "Host: 10.12.40.220[\r][\n]"
+[main] 16:01:47,226 DEBUG [org.apache.http.wire]  >> "Connection: Keep-Alive[\r][\n]"
+[main] 16:01:47,226 DEBUG [org.apache.http.wire]  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_152)[\r][\n]"
+[main] 16:01:47,226 DEBUG [org.apache.http.wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] 16:01:47,226 DEBUG [org.apache.http.wire]  >> "[\r][\n]"
+[main] 16:01:47,226 DEBUG [org.apache.http.headers] >> GET /catalogue HTTP/1.1
+[main] 16:01:47,226 DEBUG [org.apache.http.headers] >> Accept: */*
+[main] 16:01:47,226 DEBUG [org.apache.http.headers] >> Content-Length: 0
+[main] 16:01:47,226 DEBUG [org.apache.http.headers] >> Host: 10.12.40.220
+[main] 16:01:47,226 DEBUG [org.apache.http.headers] >> Connection: Keep-Alive
+[main] 16:01:47,226 DEBUG [org.apache.http.headers] >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_152)
+[main] 16:01:47,226 DEBUG [org.apache.http.headers] >> Accept-Encoding: gzip,deflate
+[main] 16:01:47,326 DEBUG [org.apache.http.wire]  << "HTTP/1.1 200 OK[\r][\n]"
+[main] 16:01:47,326 DEBUG [org.apache.http.wire]  << "Date: Mon, 22 Jan 2018 10:31:30 GMT[\r][\n]"
+[main] 16:01:47,326 DEBUG [org.apache.http.wire]  << "Set-Cookie: _TRAEFIK_BACKEND=http://front-end:8079[\r][\n]"
+[main] 16:01:47,326 DEBUG [org.apache.http.wire]  << "Set-Cookie: md.sid=s%3AFvXEqgFA1P-TRXLBmoPUSGKQW1PvQovk.4O69zKVjS11X7E7CexnALD9NaCoudb7aecf3TygfI3A; Path=/; HttpOnly[\r][\n]"
+[main] 16:01:47,326 DEBUG [org.apache.http.wire]  << "X-Powered-By: Express[\r][\n]"
+[main] 16:01:47,326 DEBUG [org.apache.http.wire]  << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[main] 16:01:47,326 DEBUG [org.apache.http.wire]  << "Transfer-Encoding: chunked[\r][\n]"
+[main] 16:01:47,326 DEBUG [org.apache.http.wire]  << "[\r][\n]"
+[main] 16:01:47,326 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+[main] 16:01:47,326 DEBUG [org.apache.http.headers] << HTTP/1.1 200 OK
+[main] 16:01:47,326 DEBUG [org.apache.http.headers] << Date: Mon, 22 Jan 2018 10:31:30 GMT
+[main] 16:01:47,326 DEBUG [org.apache.http.headers] << Set-Cookie: _TRAEFIK_BACKEND=http://front-end:8079
+[main] 16:01:47,326 DEBUG [org.apache.http.headers] << Set-Cookie: md.sid=s%3AFvXEqgFA1P-TRXLBmoPUSGKQW1PvQovk.4O69zKVjS11X7E7CexnALD9NaCoudb7aecf3TygfI3A; Path=/; HttpOnly
+[main] 16:01:47,326 DEBUG [org.apache.http.headers] << X-Powered-By: Express
+[main] 16:01:47,326 DEBUG [org.apache.http.headers] << Content-Type: text/plain; charset=utf-8
+[main] 16:01:47,326 DEBUG [org.apache.http.headers] << Transfer-Encoding: chunked
+[main] 16:01:47,342 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Connection can be kept alive indefinitely
+[main] 16:01:47,357 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: text/plain; charset=utf-8
+[main] 16:01:47,357 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] 16:01:47,442 DEBUG [org.apache.http.wire]  << "aeb[\r][\n]"
+[main] 16:01:47,442 DEBUG [org.apache.http.wire]  << "[{"id":"03fef6ac-1896-4ce8-bd69-b798f85c6e0b","name":"Holy","description":"Socks fit for a Messiah. You too can experience walking in water with these special edition beauties. Each hole is lovingly proggled to leave smooth edges. The only sock approved by a higher power.","imageUrl":["/catalogue/images/holy_1.jpeg","/catalogue/images/holy_2.jpeg"],"price":99.99,"count":1,"tag":["magic","action"]},{"id":"3395a43e-2d88-40de-b95f-e00e1502085b","name":"Colourful","description":"proident occaecat irure et excepteur labore minim nisi amet irure","imageUrl":["/catalogue/images/colourful_socks.jpg","/catalogue/images/colourful_socks.jpg"],"price":18,"count":438,"tag":["blue","brown"]},{"id":"510a0d7e-8e83-4193-b483-e27e09ddc34d","name":"SuperSport XL","description":"Ready for action. Engineers: be ready to smash that next bug! Be ready, with these super-action-sport-masterpieces. This particular engineer was chased away from the office with a stick.","imageUrl":["/catalogue/images/puma_1.jpeg","/catalogue/images/puma_2.jpeg"],"price":15,"count":820,"tag":["black","sport","formal"]},{"id":"808a2de1-1aaa-4c25-a9b9-6612e8f29a38""
+[main] 16:01:47,442 DEBUG [org.apache.http.wire]  << ","name":"Crossed","description":"A mature sock, crossed, with an air of nonchalance.","imageUrl":["/catalogue/images/cross_1.jpeg","/catalogue/images/cross_2.jpeg"],"price":17.32,"count":738,"tag":["red","formal","blue","action"]},{"id":"819e1fbf-8b7e-4f6d-811f-693534916a8b","name":"Figueroa","description":"enim officia aliqua excepteur esse deserunt quis aliquip nostrud anim","imageUrl":["/catalogue/images/WAT.jpg","/catalogue/images/WAT2.jpg"],"price":14,"count":808,"tag":["formal","blue","green"]},{"id":"837ab141-399e-4c1f-9abc-bace40296bac","name":"Cat socks","description":"consequat amet cupidatat minim laborum tempor elit ex consequat in","imageUrl":["/catalogue/images/catsocks.jpg","/catalogue/images/catsocks2.jpg"],"price":15,"count":175,"tag":["green","brown","formal"]},{"id":"a0a4f044-b040-410d-8ead-4de0446aec7e","name":"Nerd leg","description":"For all those leg lovers out there. A perfect example of a swivel chair trained calf. Meticulously trained on a diet of sitting and Pina Coladas. Phwarr...","imageUrl":["/catalogue/images/bit_of_leg_1.jpeg","/catalogue/images/bit_of_leg_2.jpeg"],"price":7.99,"count":115,"tag":["skin","blue"]},{"id":"d3588630-ad8e-49df-bbd7-3167f7efb246","name":"YouTube.sock","description":"We were not paid to sell this sock. It's just a bit geeky.","imageUrl":["/catalogue/images/youtube_1.jpeg","/catalogue/images/youtube_2.jpeg"],"price":10.99,"count":801,"tag":["geek","formal"]},{"id":"zzz4f044-b040-410d-8ead-4de0446aec7e","name":"Classic","description":"Keep it simple.","imageUrl":["/catalogue/images/classic.jpg","/catalogue/images/classic2.jpg"],"price":12,"count":127,"tag":["green","brown"]}][\n]"
+[main] 16:01:47,442 DEBUG [org.apache.http.wire]  << "[\r][\n]"
+[main] 16:01:47,442 DEBUG [org.apache.http.wire]  << "0[\r][\n]"
+[main] 16:01:47,442 DEBUG [org.apache.http.wire]  << "[\r][\n]"
+[main] 16:01:47,442 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@611df6e3
+[main] 16:01:47,442 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Connection can be kept alive indefinitely
+[main] 16:01:47,451 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: getCatalogue - com.wsautomation is test:true
+[main] 16:01:47,451 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 16:01:47,482 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: pass groups: {description=null, groups=[Ljava.lang.String;@4b85880b, name=getCatalogue, resultFileName=getCatalogueWBjIhhWoWh, sign=RestAssertTest.getCatalogue()[pri:0, instance:com.wsautomation.RestAssertTest@166fa74d]}
+[main] 16:01:47,517 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onfinish testcntext: start
+[main] 16:01:47,536 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: start
+[main] 16:01:47,547 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: done
+[main] 16:06:09,222 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 16:06:09,227 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 16:06:09,228 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 16:06:09,230 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 16:06:09,231 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 16:06:09,417 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=12-RC3, qaf-Version=2.1, qaf-Build-Time=06-Aug-2017 11:49:43}
+[main] 16:06:09,432 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\TBSWorkspace\WSAutomation\resources. Found property files to load: 3
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.xml-dialect
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 16:06:09,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 16:06:09,463 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\TBSWorkspace\WSAutomation\resources. Found property files to load: 0
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.xml-dialect
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 16:06:09,479 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 16:06:09,588 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 16:06:09,601 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: getBaseURI
+[main] 16:06:09,976 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: getBaseURI - com.wsautomation is test:false
+[main] 16:06:09,976 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 16:06:09,996 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] config method:  getBaseURI
+[main] 16:06:09,996 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: pass groups: {resultFileName=getBaseURIvNkXvRSwdz, name=getBaseURI, groups=[Ljava.lang.String;@28261e8e, description=}
+[main] 16:06:10,001 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 16:06:10,001 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: getCatalogue
+[main] 16:06:11,234 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Get connection for route {}->http://10.12.40.220:80
+[main] 16:06:11,245 DEBUG [org.apache.http.impl.conn.DefaultClientConnectionOperator] Connecting to 10.12.40.220:80
+[main] 16:06:11,405 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: ignoreCookies
+[main] 16:06:11,405 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[main] 16:06:11,405 DEBUG [org.apache.http.client.protocol.RequestTargetAuthentication] Target auth state: UNCHALLENGED
+[main] 16:06:11,405 DEBUG [org.apache.http.client.protocol.RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+[main] 16:06:11,405 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Attempt 1 to execute request
+[main] 16:06:11,405 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Sending request: GET /catalogue HTTP/1.1
+[main] 16:06:11,405 DEBUG [org.apache.http.wire]  >> "GET /catalogue HTTP/1.1[\r][\n]"
+[main] 16:06:11,405 DEBUG [org.apache.http.wire]  >> "Accept: */*[\r][\n]"
+[main] 16:06:11,405 DEBUG [org.apache.http.wire]  >> "Content-Length: 0[\r][\n]"
+[main] 16:06:11,405 DEBUG [org.apache.http.wire]  >> "Host: 10.12.40.220[\r][\n]"
+[main] 16:06:11,405 DEBUG [org.apache.http.wire]  >> "Connection: Keep-Alive[\r][\n]"
+[main] 16:06:11,405 DEBUG [org.apache.http.wire]  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_152)[\r][\n]"
+[main] 16:06:11,405 DEBUG [org.apache.http.wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] 16:06:11,405 DEBUG [org.apache.http.wire]  >> "[\r][\n]"
+[main] 16:06:11,405 DEBUG [org.apache.http.headers] >> GET /catalogue HTTP/1.1
+[main] 16:06:11,405 DEBUG [org.apache.http.headers] >> Accept: */*
+[main] 16:06:11,405 DEBUG [org.apache.http.headers] >> Content-Length: 0
+[main] 16:06:11,405 DEBUG [org.apache.http.headers] >> Host: 10.12.40.220
+[main] 16:06:11,405 DEBUG [org.apache.http.headers] >> Connection: Keep-Alive
+[main] 16:06:11,405 DEBUG [org.apache.http.headers] >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_152)
+[main] 16:06:11,405 DEBUG [org.apache.http.headers] >> Accept-Encoding: gzip,deflate
+[main] 16:06:11,745 DEBUG [org.apache.http.wire]  << "HTTP/1.1 200 OK[\r][\n]"
+[main] 16:06:11,749 DEBUG [org.apache.http.wire]  << "Date: Mon, 22 Jan 2018 10:35:54 GMT[\r][\n]"
+[main] 16:06:11,749 DEBUG [org.apache.http.wire]  << "Set-Cookie: _TRAEFIK_BACKEND=http://front-end:8079[\r][\n]"
+[main] 16:06:11,749 DEBUG [org.apache.http.wire]  << "Set-Cookie: md.sid=s%3AIxG4Pm-uYNMx_hGM9QGd2tJZErgihjCR.06Xbqca6kxfbexs5XRul26dh6EQatOzCWMrcWy5pI%2Bw; Path=/; HttpOnly[\r][\n]"
+[main] 16:06:11,749 DEBUG [org.apache.http.wire]  << "X-Powered-By: Express[\r][\n]"
+[main] 16:06:11,749 DEBUG [org.apache.http.wire]  << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[main] 16:06:11,749 DEBUG [org.apache.http.wire]  << "Transfer-Encoding: chunked[\r][\n]"
+[main] 16:06:11,749 DEBUG [org.apache.http.wire]  << "[\r][\n]"
+[main] 16:06:11,749 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+[main] 16:06:11,749 DEBUG [org.apache.http.headers] << HTTP/1.1 200 OK
+[main] 16:06:11,749 DEBUG [org.apache.http.headers] << Date: Mon, 22 Jan 2018 10:35:54 GMT
+[main] 16:06:11,749 DEBUG [org.apache.http.headers] << Set-Cookie: _TRAEFIK_BACKEND=http://front-end:8079
+[main] 16:06:11,749 DEBUG [org.apache.http.headers] << Set-Cookie: md.sid=s%3AIxG4Pm-uYNMx_hGM9QGd2tJZErgihjCR.06Xbqca6kxfbexs5XRul26dh6EQatOzCWMrcWy5pI%2Bw; Path=/; HttpOnly
+[main] 16:06:11,749 DEBUG [org.apache.http.headers] << X-Powered-By: Express
+[main] 16:06:11,749 DEBUG [org.apache.http.headers] << Content-Type: text/plain; charset=utf-8
+[main] 16:06:11,749 DEBUG [org.apache.http.headers] << Transfer-Encoding: chunked
+[main] 16:06:11,757 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Connection can be kept alive indefinitely
+[main] 16:06:11,781 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: text/plain; charset=utf-8
+[main] 16:06:11,781 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] 16:06:11,845 DEBUG [org.apache.http.wire]  << "aeb[\r][\n]"
+[main] 16:06:11,845 DEBUG [org.apache.http.wire]  << "[{"id":"03fef6ac-1896-4ce8-bd69-b798f85c6e0b","name":"Holy","description":"Socks fit for a Messiah. You too can experience walking in water with these special edition beauties. Each hole is lovingly proggled to leave smooth edges. The only sock approved by a higher power.","imageUrl":["/catalogue/images/holy_1.jpeg","/catalogue/images/holy_2.jpeg"],"price":99.99,"count":1,"tag":["magic","action"]},{"id":"3395a43e-2d88-40de-b95f-e00e1502085b","name":"Colourful","description":"proident occaecat irure et excepteur labore minim nisi amet irure","imageUrl":["/catalogue/images/colourful_socks.jpg","/catalogue/images/colourful_socks.jpg"],"price":18,"count":438,"tag":["blue","brown"]},{"id":"510a0d7e-8e83-4193-b483-e27e09ddc34d","name":"SuperSport XL","description":"Ready for action. Engineers: be ready to smash that next bug! Be ready, with these super-action-sport-masterpieces. This particular engineer was chased away from the office with a stick.","imageUrl":["/catalogue/images/puma_1.jpeg","/catalogue/images/puma_2.jpeg"],"price":15,"count":820,"tag":["black","sport","formal"]},{"id":"808a2de1-1aaa-4c25-a9b9-6612e8f29a3"
+[main] 16:06:11,845 DEBUG [org.apache.http.wire]  << "8","name":"Crossed","description":"A mature sock, crossed, with an air of nonchalance.","imageUrl":["/catalogue/images/cross_1.jpeg","/catalogue/images/cross_2.jpeg"],"price":17.32,"count":738,"tag":["red","formal","blue","action"]},{"id":"819e1fbf-8b7e-4f6d-811f-693534916a8b","name":"Figueroa","description":"enim officia aliqua excepteur esse deserunt quis aliquip nostrud anim","imageUrl":["/catalogue/images/WAT.jpg","/catalogue/images/WAT2.jpg"],"price":14,"count":808,"tag":["formal","blue","green"]},{"id":"837ab141-399e-4c1f-9abc-bace40296bac","name":"Cat socks","description":"consequat amet cupidatat minim laborum tempor elit ex consequat in","imageUrl":["/catalogue/images/catsocks.jpg","/catalogue/images/catsocks2.jpg"],"price":15,"count":175,"tag":["green","brown","formal"]},{"id":"a0a4f044-b040-410d-8ead-4de0446aec7e","name":"Nerd leg","description":"For all those leg lovers out there. A perfect example of a swivel chair trained calf. Meticulously trained on a diet of sitting and Pina Coladas. Phwarr...","imageUrl":["/catalogue/images/bit_of_leg_1.jpeg","/catalogue/images/bit_of_leg_2.jpeg"],"price":7.99,"count":115,"tag":["skin","blue"]},{"id":"d3588630-ad8e-49df-bbd7-3167f7efb246","name":"YouTube.sock","description":"We were not paid to sell this sock. It's just a bit geeky.","imageUrl":["/catalogue/images/youtube_1.jpeg","/catalogue/images/youtube_2.jpeg"],"price":10.99,"count":801,"tag":["geek","formal"]},{"id":"zzz4f044-b040-410d-8ead-4de0446aec7e","name":"Classic","description":"Keep it simple.","imageUrl":["/catalogue/images/classic.jpg","/catalogue/images/classic2.jpg"],"price":12,"count":127,"tag":["green","brown"]}][\n]"
+[main] 16:06:11,845 DEBUG [org.apache.http.wire]  << "[\r][\n]"
+[main] 16:06:11,845 DEBUG [org.apache.http.wire]  << "0[\r][\n]"
+[main] 16:06:11,845 DEBUG [org.apache.http.wire]  << "[\r][\n]"
+[main] 16:06:11,845 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@611df6e3
+[main] 16:06:11,845 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Connection can be kept alive indefinitely
+[main] 16:06:11,857 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: getCatalogue - com.wsautomation is test:true
+[main] 16:06:11,857 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 16:06:11,857 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: pass groups: {description=null, groups=[Ljava.lang.String;@4b85880b, name=getCatalogue, resultFileName=getCatalogueTTQMXGrWZL, sign=RestAssertTest.getCatalogue()[pri:0, instance:com.wsautomation.RestAssertTest@166fa74d]}
+[main] 16:06:11,894 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onfinish testcntext: start
+[main] 16:06:11,902 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: start
+[main] 16:06:11,906 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: done
+[main] 16:09:27,617 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 16:09:27,625 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 16:09:27,625 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 16:09:27,625 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 16:09:27,625 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 16:09:27,785 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=12-RC3, qaf-Version=2.1, qaf-Build-Time=06-Aug-2017 11:49:43}
+[main] 16:09:27,796 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\TBSWorkspace\WSAutomation\resources. Found property files to load: 3
+[main] 16:09:27,809 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 16:09:27,809 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 16:09:27,809 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 16:09:27,809 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 16:09:27,809 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 16:09:27,809 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 16:09:27,809 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 16:09:27,809 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 16:09:27,809 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 16:09:27,809 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 16:09:27,809 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 16:09:27,809 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 16:09:27,809 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 16:09:27,809 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 16:09:27,809 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 16:09:27,809 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 16:09:27,809 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 16:09:27,809 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.xml-dialect
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 16:09:27,825 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\TBSWorkspace\WSAutomation\resources. Found property files to load: 0
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.xml-dialect
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 16:09:27,825 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 16:09:27,975 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 16:09:28,001 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: getBaseURI
+[main] 16:09:28,355 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: getBaseURI - com.wsautomation is test:false
+[main] 16:09:28,355 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 16:09:28,371 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] config method:  getBaseURI
+[main] 16:09:28,371 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: pass groups: {resultFileName=getBaseURIlgXcwpRIfA, name=getBaseURI, groups=[Ljava.lang.String;@35dab4eb, description=}
+[main] 16:09:28,391 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 16:09:28,391 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: getIteamFromCatalogueID
+[main] 16:09:29,593 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Get connection for route {}->http://10.12.40.220:80
+[main] 16:09:29,605 DEBUG [org.apache.http.impl.conn.DefaultClientConnectionOperator] Connecting to 10.12.40.220:80
+[main] 16:09:29,700 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: ignoreCookies
+[main] 16:09:29,702 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[main] 16:09:29,702 DEBUG [org.apache.http.client.protocol.RequestTargetAuthentication] Target auth state: UNCHALLENGED
+[main] 16:09:29,703 DEBUG [org.apache.http.client.protocol.RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+[main] 16:09:29,703 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Attempt 1 to execute request
+[main] 16:09:29,703 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Sending request: GET /catalogue/03fef6ac-1896-4ce8-bd69-b798f85c6e0b HTTP/1.1
+[main] 16:09:29,704 DEBUG [org.apache.http.wire]  >> "GET /catalogue/03fef6ac-1896-4ce8-bd69-b798f85c6e0b HTTP/1.1[\r][\n]"
+[main] 16:09:29,705 DEBUG [org.apache.http.wire]  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[main] 16:09:29,705 DEBUG [org.apache.http.wire]  >> "Accept: application/json, application/javascript, text/javascript[\r][\n]"
+[main] 16:09:29,705 DEBUG [org.apache.http.wire]  >> "Content-Length: 0[\r][\n]"
+[main] 16:09:29,705 DEBUG [org.apache.http.wire]  >> "Host: 10.12.40.220[\r][\n]"
+[main] 16:09:29,705 DEBUG [org.apache.http.wire]  >> "Connection: Keep-Alive[\r][\n]"
+[main] 16:09:29,705 DEBUG [org.apache.http.wire]  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_152)[\r][\n]"
+[main] 16:09:29,705 DEBUG [org.apache.http.wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] 16:09:29,705 DEBUG [org.apache.http.wire]  >> "[\r][\n]"
+[main] 16:09:29,705 DEBUG [org.apache.http.headers] >> GET /catalogue/03fef6ac-1896-4ce8-bd69-b798f85c6e0b HTTP/1.1
+[main] 16:09:29,706 DEBUG [org.apache.http.headers] >> Content-Type: application/json; charset=UTF-8
+[main] 16:09:29,706 DEBUG [org.apache.http.headers] >> Accept: application/json, application/javascript, text/javascript
+[main] 16:09:29,706 DEBUG [org.apache.http.headers] >> Content-Length: 0
+[main] 16:09:29,706 DEBUG [org.apache.http.headers] >> Host: 10.12.40.220
+[main] 16:09:29,706 DEBUG [org.apache.http.headers] >> Connection: Keep-Alive
+[main] 16:09:29,706 DEBUG [org.apache.http.headers] >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_152)
+[main] 16:09:29,706 DEBUG [org.apache.http.headers] >> Accept-Encoding: gzip,deflate
+[main] 16:09:29,753 DEBUG [org.apache.http.wire]  << "HTTP/1.1 200 OK[\r][\n]"
+[main] 16:09:29,755 DEBUG [org.apache.http.wire]  << "Date: Mon, 22 Jan 2018 10:39:12 GMT[\r][\n]"
+[main] 16:09:29,755 DEBUG [org.apache.http.wire]  << "Set-Cookie: _TRAEFIK_BACKEND=http://front-end:8079[\r][\n]"
+[main] 16:09:29,755 DEBUG [org.apache.http.wire]  << "Set-Cookie: md.sid=s%3AtXEESkDYszaZDiKPj3SWYfoEwY00fUPg.vQRJ40kDbuv4UNID1fUZpVOUpkB3BPbH3r9eSNP4JVs; Path=/; HttpOnly[\r][\n]"
+[main] 16:09:29,756 DEBUG [org.apache.http.wire]  << "X-Powered-By: Express[\r][\n]"
+[main] 16:09:29,756 DEBUG [org.apache.http.wire]  << "Content-Length: 400[\r][\n]"
+[main] 16:09:29,756 DEBUG [org.apache.http.wire]  << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[main] 16:09:29,756 DEBUG [org.apache.http.wire]  << "[\r][\n]"
+[main] 16:09:29,757 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+[main] 16:09:29,757 DEBUG [org.apache.http.headers] << HTTP/1.1 200 OK
+[main] 16:09:29,757 DEBUG [org.apache.http.headers] << Date: Mon, 22 Jan 2018 10:39:12 GMT
+[main] 16:09:29,757 DEBUG [org.apache.http.headers] << Set-Cookie: _TRAEFIK_BACKEND=http://front-end:8079
+[main] 16:09:29,758 DEBUG [org.apache.http.headers] << Set-Cookie: md.sid=s%3AtXEESkDYszaZDiKPj3SWYfoEwY00fUPg.vQRJ40kDbuv4UNID1fUZpVOUpkB3BPbH3r9eSNP4JVs; Path=/; HttpOnly
+[main] 16:09:29,758 DEBUG [org.apache.http.headers] << X-Powered-By: Express
+[main] 16:09:29,758 DEBUG [org.apache.http.headers] << Content-Length: 400
+[main] 16:09:29,758 DEBUG [org.apache.http.headers] << Content-Type: text/plain; charset=utf-8
+[main] 16:09:29,763 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Connection can be kept alive indefinitely
+[main] 16:09:29,790 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: text/plain; charset=utf-8
+[main] 16:09:29,790 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] 16:09:30,271 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: getIteamFromCatalogueID - com.wsautomation is test:true
+[main] 16:09:30,272 ERROR [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] java.lang.IllegalArgumentException: The parameter "id" was used but not defined. Define parameters using the JsonPath.params(...) function
+[main] 16:09:30,273 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 16:09:30,304 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: fail groups: {description=null, groups=[Ljava.lang.String;@6754ef00, name=getIteamFromCatalogueID, sign=RestAssertTest.getIteamFromCatalogueID(java.lang.String)[pri:0, instance:com.wsautomation.RestAssertTest@33b37288], value=[Ljava.lang.String;@619bd14c}
+[main] 16:09:30,352 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onfinish testcntext: start
+[main] 16:09:30,362 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: start
+[main] 16:09:30,375 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: done
+[main] 16:11:22,441 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 16:11:22,451 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 16:11:22,452 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 16:11:22,454 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 16:11:22,455 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 16:11:22,593 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=12-RC3, qaf-Version=2.1, qaf-Build-Time=06-Aug-2017 11:49:43}
+[main] 16:11:22,593 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\TBSWorkspace\WSAutomation\resources. Found property files to load: 3
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.xml-dialect
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 16:11:22,624 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\TBSWorkspace\WSAutomation\resources. Found property files to load: 0
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.xml-dialect
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 16:11:22,624 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 16:11:22,758 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 16:11:22,786 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: getBaseURI
+[main] 16:11:23,162 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: getBaseURI - com.wsautomation is test:false
+[main] 16:11:23,162 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 16:11:23,177 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] config method:  getBaseURI
+[main] 16:11:23,177 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: pass groups: {resultFileName=getBaseURIVJiEjmnAZN, name=getBaseURI, groups=[Ljava.lang.String;@35dab4eb, description=}
+[main] 16:11:23,205 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 16:11:23,205 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: getIteamFromCatalogueID
+[main] 16:11:24,398 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Get connection for route {}->http://10.12.40.220:80
+[main] 16:11:24,410 DEBUG [org.apache.http.impl.conn.DefaultClientConnectionOperator] Connecting to 10.12.40.220:80
+[main] 16:11:24,469 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: ignoreCookies
+[main] 16:11:24,471 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[main] 16:11:24,471 DEBUG [org.apache.http.client.protocol.RequestTargetAuthentication] Target auth state: UNCHALLENGED
+[main] 16:11:24,471 DEBUG [org.apache.http.client.protocol.RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+[main] 16:11:24,472 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Attempt 1 to execute request
+[main] 16:11:24,472 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Sending request: GET /catalogue/03fef6ac-1896-4ce8-bd69-b798f85c6e0b HTTP/1.1
+[main] 16:11:24,472 DEBUG [org.apache.http.wire]  >> "GET /catalogue/03fef6ac-1896-4ce8-bd69-b798f85c6e0b HTTP/1.1[\r][\n]"
+[main] 16:11:24,473 DEBUG [org.apache.http.wire]  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[main] 16:11:24,473 DEBUG [org.apache.http.wire]  >> "Accept: application/json, application/javascript, text/javascript[\r][\n]"
+[main] 16:11:24,473 DEBUG [org.apache.http.wire]  >> "Content-Length: 0[\r][\n]"
+[main] 16:11:24,473 DEBUG [org.apache.http.wire]  >> "Host: 10.12.40.220[\r][\n]"
+[main] 16:11:24,473 DEBUG [org.apache.http.wire]  >> "Connection: Keep-Alive[\r][\n]"
+[main] 16:11:24,474 DEBUG [org.apache.http.wire]  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_152)[\r][\n]"
+[main] 16:11:24,474 DEBUG [org.apache.http.wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] 16:11:24,474 DEBUG [org.apache.http.wire]  >> "[\r][\n]"
+[main] 16:11:24,474 DEBUG [org.apache.http.headers] >> GET /catalogue/03fef6ac-1896-4ce8-bd69-b798f85c6e0b HTTP/1.1
+[main] 16:11:24,474 DEBUG [org.apache.http.headers] >> Content-Type: application/json; charset=UTF-8
+[main] 16:11:24,474 DEBUG [org.apache.http.headers] >> Accept: application/json, application/javascript, text/javascript
+[main] 16:11:24,474 DEBUG [org.apache.http.headers] >> Content-Length: 0
+[main] 16:11:24,474 DEBUG [org.apache.http.headers] >> Host: 10.12.40.220
+[main] 16:11:24,474 DEBUG [org.apache.http.headers] >> Connection: Keep-Alive
+[main] 16:11:24,474 DEBUG [org.apache.http.headers] >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_152)
+[main] 16:11:24,474 DEBUG [org.apache.http.headers] >> Accept-Encoding: gzip,deflate
+[main] 16:11:24,534 DEBUG [org.apache.http.wire]  << "HTTP/1.1 200 OK[\r][\n]"
+[main] 16:11:24,536 DEBUG [org.apache.http.wire]  << "Date: Mon, 22 Jan 2018 10:41:07 GMT[\r][\n]"
+[main] 16:11:24,536 DEBUG [org.apache.http.wire]  << "Set-Cookie: _TRAEFIK_BACKEND=http://front-end:8079[\r][\n]"
+[main] 16:11:24,537 DEBUG [org.apache.http.wire]  << "Set-Cookie: md.sid=s%3AyqU-GGDUxXQEaaZTr-d2QDTUzOVhcIpK.W0zZyNXbQv5kzy8yePHxa4FvA3%2BJ6FetGzqYWD8L0FQ; Path=/; HttpOnly[\r][\n]"
+[main] 16:11:24,537 DEBUG [org.apache.http.wire]  << "X-Powered-By: Express[\r][\n]"
+[main] 16:11:24,537 DEBUG [org.apache.http.wire]  << "Content-Length: 400[\r][\n]"
+[main] 16:11:24,537 DEBUG [org.apache.http.wire]  << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[main] 16:11:24,537 DEBUG [org.apache.http.wire]  << "[\r][\n]"
+[main] 16:11:24,538 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+[main] 16:11:24,538 DEBUG [org.apache.http.headers] << HTTP/1.1 200 OK
+[main] 16:11:24,538 DEBUG [org.apache.http.headers] << Date: Mon, 22 Jan 2018 10:41:07 GMT
+[main] 16:11:24,538 DEBUG [org.apache.http.headers] << Set-Cookie: _TRAEFIK_BACKEND=http://front-end:8079
+[main] 16:11:24,538 DEBUG [org.apache.http.headers] << Set-Cookie: md.sid=s%3AyqU-GGDUxXQEaaZTr-d2QDTUzOVhcIpK.W0zZyNXbQv5kzy8yePHxa4FvA3%2BJ6FetGzqYWD8L0FQ; Path=/; HttpOnly
+[main] 16:11:24,538 DEBUG [org.apache.http.headers] << X-Powered-By: Express
+[main] 16:11:24,538 DEBUG [org.apache.http.headers] << Content-Length: 400
+[main] 16:11:24,538 DEBUG [org.apache.http.headers] << Content-Type: text/plain; charset=utf-8
+[main] 16:11:24,543 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Connection can be kept alive indefinitely
+[main] 16:11:24,572 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: text/plain; charset=utf-8
+[main] 16:11:24,572 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] 16:11:25,047 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: getIteamFromCatalogueID - com.wsautomation is test:true
+[main] 16:11:25,047 ERROR [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] java.lang.IllegalArgumentException: The parameter "id" was used but not defined. Define parameters using the JsonPath.params(...) function
+[main] 16:11:25,059 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 16:11:25,094 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: fail groups: {description=null, groups=[Ljava.lang.String;@619bd14c, name=getIteamFromCatalogueID, resultFileName=getIteamFromCatalogueIDrGHqVuOgHA, sign=RestAssertTest.getIteamFromCatalogueID(java.lang.String)[pri:0, instance:com.wsautomation.RestAssertTest@33b37288], value=[Ljava.lang.String;@323e8306}
+[main] 16:11:25,131 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onfinish testcntext: start
+[main] 16:11:25,146 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: start
+[main] 16:11:25,146 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: done
+[main] 17:26:40,248 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 17:26:40,255 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 17:26:40,255 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 17:26:40,257 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 17:26:40,257 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 17:26:40,425 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=12-RC3, qaf-Version=2.1, qaf-Build-Time=06-Aug-2017 11:49:43}
+[main] 17:26:40,443 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\TBSWorkspace\WSAutomation\resources. Found property files to load: 3
+[main] 17:26:40,462 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 17:26:40,462 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 17:26:40,462 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 17:26:40,462 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 17:26:40,462 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 17:26:40,462 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 17:26:40,462 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 17:26:40,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 17:26:40,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 17:26:40,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 17:26:40,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 17:26:40,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 17:26:40,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 17:26:40,464 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 17:26:40,464 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 17:26:40,464 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 17:26:40,464 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 17:26:40,464 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 17:26:40,468 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.xml-dialect
+[main] 17:26:40,468 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 17:26:40,468 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 17:26:40,468 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 17:26:40,468 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 17:26:40,468 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 17:26:40,468 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 17:26:40,470 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\TBSWorkspace\WSAutomation\resources. Found property files to load: 0
+[main] 17:26:40,473 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 17:26:40,473 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 17:26:40,473 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 17:26:40,473 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 17:26:40,474 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 17:26:40,474 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 17:26:40,474 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 17:26:40,474 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 17:26:40,474 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 17:26:40,474 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 17:26:40,474 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 17:26:40,474 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 17:26:40,474 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 17:26:40,474 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 17:26:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 17:26:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 17:26:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 17:26:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 17:26:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.xml-dialect
+[main] 17:26:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 17:26:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 17:26:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 17:26:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 17:26:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 17:26:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 17:26:40,607 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 17:26:40,635 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: getBaseURI
+[main] 17:26:41,049 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: getBaseURI - com.wsautomation is test:false
+[main] 17:26:41,050 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 17:26:41,060 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] config method:  getBaseURI
+[main] 17:26:41,060 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: pass groups: {name=getBaseURI, groups=[Ljava.lang.String;@53fb3dab, description=}
+[main] 17:26:41,083 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 17:26:41,083 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: getIteamFromCatalogueID
+[main] 17:26:42,323 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Get connection for route {}->http://10.12.40.220:80
+[main] 17:26:42,335 DEBUG [org.apache.http.impl.conn.DefaultClientConnectionOperator] Connecting to 10.12.40.220:80
+[main] 17:26:42,393 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: ignoreCookies
+[main] 17:26:42,395 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[main] 17:26:42,395 DEBUG [org.apache.http.client.protocol.RequestTargetAuthentication] Target auth state: UNCHALLENGED
+[main] 17:26:42,395 DEBUG [org.apache.http.client.protocol.RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+[main] 17:26:42,396 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Attempt 1 to execute request
+[main] 17:26:42,396 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Sending request: GET /catalogue/03fef6ac-1896-4ce8-bd69-b798f85c6e0b HTTP/1.1
+[main] 17:26:42,397 DEBUG [org.apache.http.wire]  >> "GET /catalogue/03fef6ac-1896-4ce8-bd69-b798f85c6e0b HTTP/1.1[\r][\n]"
+[main] 17:26:42,398 DEBUG [org.apache.http.wire]  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[main] 17:26:42,398 DEBUG [org.apache.http.wire]  >> "Accept: application/json, application/javascript, text/javascript[\r][\n]"
+[main] 17:26:42,398 DEBUG [org.apache.http.wire]  >> "Content-Length: 0[\r][\n]"
+[main] 17:26:42,398 DEBUG [org.apache.http.wire]  >> "Host: 10.12.40.220[\r][\n]"
+[main] 17:26:42,398 DEBUG [org.apache.http.wire]  >> "Connection: Keep-Alive[\r][\n]"
+[main] 17:26:42,398 DEBUG [org.apache.http.wire]  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_152)[\r][\n]"
+[main] 17:26:42,398 DEBUG [org.apache.http.wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] 17:26:42,398 DEBUG [org.apache.http.wire]  >> "[\r][\n]"
+[main] 17:26:42,398 DEBUG [org.apache.http.headers] >> GET /catalogue/03fef6ac-1896-4ce8-bd69-b798f85c6e0b HTTP/1.1
+[main] 17:26:42,398 DEBUG [org.apache.http.headers] >> Content-Type: application/json; charset=UTF-8
+[main] 17:26:42,399 DEBUG [org.apache.http.headers] >> Accept: application/json, application/javascript, text/javascript
+[main] 17:26:42,399 DEBUG [org.apache.http.headers] >> Content-Length: 0
+[main] 17:26:42,399 DEBUG [org.apache.http.headers] >> Host: 10.12.40.220
+[main] 17:26:42,399 DEBUG [org.apache.http.headers] >> Connection: Keep-Alive
+[main] 17:26:42,399 DEBUG [org.apache.http.headers] >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_152)
+[main] 17:26:42,399 DEBUG [org.apache.http.headers] >> Accept-Encoding: gzip,deflate
+[main] 17:26:42,730 DEBUG [org.apache.http.wire]  << "HTTP/1.1 200 OK[\r][\n]"
+[main] 17:26:42,730 DEBUG [org.apache.http.wire]  << "Date: Mon, 22 Jan 2018 11:56:25 GMT[\r][\n]"
+[main] 17:26:42,730 DEBUG [org.apache.http.wire]  << "Set-Cookie: _TRAEFIK_BACKEND=http://front-end:8079[\r][\n]"
+[main] 17:26:42,730 DEBUG [org.apache.http.wire]  << "Set-Cookie: md.sid=s%3AgCNYwSMRLkH-p3Gal8TOOgdf8grsQBhT.ZFPsJ%2Fu3%2BCShZDy02aJxASVaxHzwKEEk1JH4AJwwUWs; Path=/; HttpOnly[\r][\n]"
+[main] 17:26:42,730 DEBUG [org.apache.http.wire]  << "X-Powered-By: Express[\r][\n]"
+[main] 17:26:42,730 DEBUG [org.apache.http.wire]  << "Content-Length: 400[\r][\n]"
+[main] 17:26:42,730 DEBUG [org.apache.http.wire]  << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[main] 17:26:42,730 DEBUG [org.apache.http.wire]  << "[\r][\n]"
+[main] 17:26:42,730 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+[main] 17:26:42,730 DEBUG [org.apache.http.headers] << HTTP/1.1 200 OK
+[main] 17:26:42,730 DEBUG [org.apache.http.headers] << Date: Mon, 22 Jan 2018 11:56:25 GMT
+[main] 17:26:42,730 DEBUG [org.apache.http.headers] << Set-Cookie: _TRAEFIK_BACKEND=http://front-end:8079
+[main] 17:26:42,730 DEBUG [org.apache.http.headers] << Set-Cookie: md.sid=s%3AgCNYwSMRLkH-p3Gal8TOOgdf8grsQBhT.ZFPsJ%2Fu3%2BCShZDy02aJxASVaxHzwKEEk1JH4AJwwUWs; Path=/; HttpOnly
+[main] 17:26:42,730 DEBUG [org.apache.http.headers] << X-Powered-By: Express
+[main] 17:26:42,730 DEBUG [org.apache.http.headers] << Content-Length: 400
+[main] 17:26:42,730 DEBUG [org.apache.http.headers] << Content-Type: text/plain; charset=utf-8
+[main] 17:26:42,730 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Connection can be kept alive indefinitely
+[main] 17:26:42,767 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: text/plain; charset=utf-8
+[main] 17:26:42,767 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] 17:26:42,847 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: getIteamFromCatalogueID - com.wsautomation is test:true
+[main] 17:26:42,847 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 17:26:42,885 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: pass groups: {description=null, groups=[Ljava.lang.String;@3d08f3f5, name=getIteamFromCatalogueID, sign=RestAssertTest.getIteamFromCatalogueID(java.lang.String)[pri:0, instance:com.wsautomation.RestAssertTest@166fa74d], value=[Ljava.lang.String;@119f1f2a}
+[main] 17:26:42,908 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onfinish testcntext: start
+[main] 17:26:42,916 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: start
+[main] 17:26:42,920 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: done

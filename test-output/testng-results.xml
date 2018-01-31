@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2289" started-at="2018-01-22T11:56:40Z" finished-at="2018-01-22T11:56:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2289" started-at="2018-01-22T11:56:40Z" finished-at="2018-01-22T11:56:42Z">
+      <class name="com.wsautomation.RestAssertTest">
+        <test-method status="PASS" signature="getBaseURI()[pri:0, instance:com.wsautomation.RestAssertTest@166fa74d]" name="getBaseURI" is-config="true" duration-ms="434" started-at="2018-01-22T17:26:40Z" finished-at="2018-01-22T17:26:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getBaseURI -->
+        <test-method status="PASS" signature="getIteamFromCatalogueID(java.lang.String)[pri:0, instance:com.wsautomation.RestAssertTest@166fa74d]" name="getIteamFromCatalogueID" duration-ms="1768" started-at="2018-01-22T17:26:41Z" finished-at="2018-01-22T17:26:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[catalogueID]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getIteamFromCatalogueID -->
+      </class> <!-- com.wsautomation.RestAssertTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

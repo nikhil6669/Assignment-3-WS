@@ -1,0 +1,34 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.wsautomation.RestAssertTest"
+  ],
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12-RC3",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Aug-2017 11:49:43"
+    },
+    "run-parameters": {
+      "baseurl": "http://http://10.12.40.220",
+      "resources": "resources"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_152",
+      "os.arch": "amd64",
+      "host": "ICPL12770",
+      "os.name": "Windows 10",
+      "user.name": "Nikhil.Bhalerao",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1516623375399,
+  "endTime": 1516623377790
+}

@@ -1,0 +1,34 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "getBaseURI",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1516622225657,
+      "duration": 482,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registerUser",
+        "sign": "RestAssertTest.registerUser()[pri:3, instance:com.wsautomation.RestAssertTest@491cc5c9]"
+      },
+      "dependsOn": [],
+      "startTime": 1516622226165,
+      "duration": 3007,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

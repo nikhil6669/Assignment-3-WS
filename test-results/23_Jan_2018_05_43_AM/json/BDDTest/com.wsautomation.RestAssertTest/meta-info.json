@@ -1,0 +1,34 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "getBaseURI",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1516686210946,
+      "duration": 428,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "sessionWS",
+        "sign": "RestAssertTest.sessionWS()[pri:5, instance:com.wsautomation.RestAssertTest@491cc5c9]"
+      },
+      "dependsOn": [],
+      "startTime": 1516686211394,
+      "duration": 14961,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "getBaseURI",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1516616371649,
+      "duration": 377,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "getCatalogue",
+        "sign": "RestAssertTest.getCatalogue()[pri:0, instance:com.wsautomation.RestAssertTest@166fa74d]"
+      },
+      "dependsOn": [],
+      "startTime": 1516616372051,
+      "duration": 1627,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "getBaseURINYASkOzYzK",
+        "name": "getBaseURI",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1516617105596,
+      "duration": 377,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "getCatalogue",
+        "resultFileName": "getCatalogueWBjIhhWoWh",
+        "sign": "RestAssertTest.getCatalogue()[pri:0, instance:com.wsautomation.RestAssertTest@166fa74d]"
+      },
+      "dependsOn": [],
+      "startTime": 1516617106004,
+      "duration": 1447,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "getBaseURIvNkXvRSwdz",
+        "name": "getBaseURI",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1516617369593,
+      "duration": 383,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "getCatalogue",
+        "resultFileName": "getCatalogueTTQMXGrWZL",
+        "sign": "RestAssertTest.getCatalogue()[pri:0, instance:com.wsautomation.RestAssertTest@166fa74d]"
+      },
+      "dependsOn": [],
+      "startTime": 1516617370001,
+      "duration": 1856,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "getBaseURIlgXcwpRIfA",
+        "name": "getBaseURI",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1516617567981,
+      "duration": 374,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        "catalogueID"
+      ],
+      "metaData": {
+        "groups": [],
+        "name": "getIteamFromCatalogueID",
+        "sign": "RestAssertTest.getIteamFromCatalogueID(java.lang.String)[pri:0, instance:com.wsautomation.RestAssertTest@33b37288]",
+        "value": [
+          "catalogueID"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1516617568391,
+      "duration": 1880,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "getBaseURIVJiEjmnAZN",
+        "name": "getBaseURI",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1516617682766,
+      "duration": 396,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        "catalogueID"
+      ],
+      "metaData": {
+        "groups": [],
+        "name": "getIteamFromCatalogueID",
+        "resultFileName": "getIteamFromCatalogueIDrGHqVuOgHA",
+        "sign": "RestAssertTest.getIteamFromCatalogueID(java.lang.String)[pri:0, instance:com.wsautomation.RestAssertTest@33b37288]",
+        "value": [
+          "catalogueID"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1516617683201,
+      "duration": 1846,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

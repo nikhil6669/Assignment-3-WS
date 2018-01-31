@@ -1,0 +1,66 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "getBaseURI",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1516681033866,
+      "duration": 409,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "basicAuth",
+        "sign": "RestAssertTest.basicAuth()[pri:4, instance:com.wsautomation.RestAssertTest@491cc5c9]"
+      },
+      "dependsOn": [],
+      "startTime": 1516681034307,
+      "duration": 2059,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "getBaseURIlOLHGxehyd",
+        "name": "getBaseURI",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1516681069638,
+      "duration": 411,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "basicAuth",
+        "resultFileName": "basicAuthrZHYJvHgNH",
+        "sign": "RestAssertTest.basicAuth()[pri:4, instance:com.wsautomation.RestAssertTest@491cc5c9]"
+      },
+      "dependsOn": [],
+      "startTime": 1516681070065,
+      "duration": 2063,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
